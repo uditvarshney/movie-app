@@ -8,7 +8,7 @@ import { MovieListComponent } from './cards/movie-list/movie-list.component';
 import { MovieListSmartComponent } from './cards/movie-list-smart/movie-list-smart.component';
 import { MovieServiceService } from './movie-service.service';
 import { HttpClientModule } from '@angular/common/http';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule, MatButtonModule } from '@angular/material';
 
 
