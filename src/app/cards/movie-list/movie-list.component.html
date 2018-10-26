@@ -1,0 +1,13 @@
+<div class="row ml-2 mr-2 mt-2 mb-2" >
+  
+  <mat-card *ngFor="let movie of movies" class="mr-2 mt-2">
+      <img mat-card-image src="{{movie.posterUrl}}" alt="Card image cap">
+      <mat-card-title>{{movie.movieTitle}}</mat-card-title>
+      <mat-card-content>
+        <p>Ratting: {{movie.rating}}</p>
+        <p>Year of Release: {{movie.yearOfRelease}}</p>
+      </mat-card-content>
+      <button mat-button color="accent">Remove</button>
+  </mat-card>
+</div>
+

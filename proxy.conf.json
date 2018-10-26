@@ -1,0 +1,8 @@
+{
+    "/api/v1/movie/": {
+      "target": "http://localhost:8098",
+      "secure": false,
+      "changeOrigin": true,
+      "logLevel": "debug"
+    }
+  }

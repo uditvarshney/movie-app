@@ -1,0 +1,5 @@
+[
+    {"movieId":"tt454","movieName":"Ek","movieRating":6,"comments":"Bad"},
+    {"movieId":"tt455","movieName":"Do","movieRating":5,"comments":"Worse"},
+    {"movieId":"tt456","movieName":"Teen","movieRating":4,"comments":"Worst"}
+ ]
